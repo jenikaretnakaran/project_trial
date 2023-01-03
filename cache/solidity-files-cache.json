@@ -258,8 +258,8 @@
       ]
     },
     "/Users/vimalsuresh/Work/bonus-blocks/contracts/Bonus.sol": {
-      "lastModificationDate": 1672234361638,
-      "contentHash": "94ae40cf80ddefcf8d6b2048586fcffa",
+      "lastModificationDate": 1672737681588,
+      "contentHash": "ec7efb292b31d0d3a3d3af6b6f01a514",
       "sourceName": "contracts/Bonus.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -286,6 +286,7 @@
       },
       "imports": [
         "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
         "contracts/Token.sol"
       ],
       "versionPragmas": [
@@ -293,6 +294,41 @@
       ],
       "artifacts": [
         "payroll"
+      ]
+    },
+    "/Users/vimalsuresh/Work/bonus-blocks/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1671706263887,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
       ]
     }
   }
